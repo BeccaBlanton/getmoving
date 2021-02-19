@@ -1,7 +1,7 @@
 {
   "name": "mongoose_skeleton",
   "version": "1.0.0",
-  "description": "",
+  "description": "workout app",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,6 +15,7 @@
     "express": "^4.17.1",
     "mongoose": "^5.11.17",
     "morgan": "^1.9.1",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7"
   }
 }
