@@ -14,10 +14,9 @@ router.get("/stats", (req, res)=>{
     res.sendFile(path.join(__dirname, "../public/stats.html"))
 })
 
-router.post('/api/workouts', (req, res)=>{
+router.post("/api/workouts", (req, res)=>{
     Workout.create(req.body)
     .then(dbWorkout => {
-        console.log(dbWorkout)
         res.json(dbWorkout);
     })
     .catch(err => {
@@ -49,7 +48,7 @@ router.post('/api/workouts', (req, res)=>{
   router.put('/api/workouts/:id', (req, res)=> {
       Workout.updateOne({_id: req.params.id},
         { $push: {
-            workout: req.body
+            exercises: req.body
         }
     },
     {
