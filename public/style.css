@@ -10,6 +10,16 @@ html,
 body,
 .wrapper {
   height: 100%;
+  background-color: #3e978b;
+  background-image: linear-gradient(
+121deg
+,#d2e603,#2ec1ac);
+}
+
+canvas{
+  background-color: ghostwhite;
+  border-radius: 40px;
+  padding:10px;
 }
 
 body {
@@ -17,12 +27,12 @@ body {
 }
 
 nav {
-  background-color: #5793fd;
-  color: #ffffff;
+  background-color: black;
+  color: #2ec1ac;
   height: 80px;
   padding: 10px;
   line-height: 3;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 a,
@@ -100,7 +110,10 @@ input {
 }
 
 .wrapper {
-  background-color: #f2f8ff;
+  background-color: yellow;
+  background-image: linear-gradient(
+121deg
+,#d2e603,#2ec1ac);
   padding-bottom: 100px;
 }
 
@@ -108,7 +121,10 @@ input {
 .m-auto {
   margin: 0 auto;
   width: 500px;
+  border-radius: 40px;
 }
+
+
 
 form .workout-type,
 form .cardio-form div,
@@ -411,16 +427,27 @@ form > button {
   padding: 10px;
 }
 
+.ui.raised.card {
+  background-color: black;
+  color:ghostwhite;
+}
+
 .buttons .ui.button:first-child {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
+  background-color:#2ec1ac;
+  border-bottom-left-radius: 40px;
+  color:black;
 }
 
 .buttons .ui.button:nth-child(2) {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   border-top-right-radius: 0;
+  background-color:#d2e603;
+  border-bottom-right-radius: 40px;
+  color:black;
 }
 
 .workout-type,
