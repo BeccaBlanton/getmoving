@@ -4,7 +4,8 @@
     
 ## Table of Contents
 ==================
-* [Description](#Description) 
+* [Description](#Description)
+* [Technologies](#Technologies)
 * [Installation](#Installation)
 * [Usage](#Usage) 
 * [license](#license) 
@@ -17,7 +18,8 @@ Get moving is a web app to track your workouts. Can enter multiple workouts a da
     
 ## Technologies
 
-This app was created with javascript, with a mongoDB database using mongoose. 
+This app was created primarily with javascript, using express with a mongoDB database using mongoose. 
+
 ## Installation
     
 no installation needed. go to site using URL here: https://dry-beach-72570.herokuapp.com/
@@ -36,6 +38,7 @@ If you have any questions please contact at [beccaablanton@gmail.com](beccaablan
 [Link to GitHub Profile](https://www.github.com/BeccaBlanton)
 
 ### Example
-![screenshot of get moving App](./public/img/getmovingScreenshot.png)
-![screenshot of get moving form](./public/img/getmovingScreenshot2.png)
+![screenshot of get moving App](./public/img/GetMovingLastWorkout.png)
+![screenshot of get moving form](./public/img/GetMovingAddExercise.png)
+![screenshot of get moving dashboard](./public/img/GetMovingDashboard.png)
 [Link to Deployed Site](https://dry-beach-72570.herokuapp.com/)
